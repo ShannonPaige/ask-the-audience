@@ -1,0 +1,28 @@
+{
+  "name": "ask-the-audience",
+  "version": "1.0.0",
+  "description": " Someone can pose a question to the class and the class can vote from one of four options.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShannonPaige/ask-the-audience.git"
+  },
+  "keywords": [
+    "poll"
+  ],
+  "author": "Shannon Paige",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShannonPaige/ask-the-audience/issues"
+  },
+  "homepage": "https://github.com/ShannonPaige/ask-the-audience#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.11.1",
+    "socket.io": "^1.4.5"
+  }
+}
